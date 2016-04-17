@@ -1,0 +1,45 @@
+{
+  "ProjectName": "ionic-amnch-1",
+  "ProjectGuid": "8ed4e5ed-0eba-45e8-8cff-e363cdddbaea",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.ionicamnch1",
+  "DisplayName": "ionic-amnch-1",
+  "Author": "",
+  "Description": "ionic-amnch-1",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{ac8e5a28-d327-440d-85da-a756ee015439}",
+  "WP8ProductID": "{50c57048-678a-48a0-8c48-8ed7bb01368c}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.ionicamnch1",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
