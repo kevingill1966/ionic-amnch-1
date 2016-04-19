@@ -1,0 +1,14 @@
+<ion-view view-title="Select Consultant">
+  <ion-content class="padding">
+      <button ng-click="refresh()">
+           Refresh
+      </button>
+      
+      <ion-list>
+  <ion-item ng-repeat="consultant in consultants" ng-click="choose(consultant)">
+    {{ consultant.name}}
+  </ion-item>
+</ion-list>
+      
+  </ion-content>
+</ion-view>

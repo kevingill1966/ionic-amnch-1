@@ -1,0 +1,26 @@
+<ion-view view-title="Consultant: {{ consultant.name }}">
+  <ion-content class="padding">
+      <button ng-click="refresh()">
+           Refresh
+      </button>
+      
+      <ion-list>
+  <ion-item ng-repeat="note in notes" class="item-text-wrap" style="padding:0">
+          <div class="note">
+              <div class="note-header">
+                  {{ note.mrn}}, {{ note.surname}} {{ note.forename}}, {{note.date_of_birth}}
+              </div>
+              <div class="note-source">
+                  <div style="float:left">                    
+                  {{note.recorded_date | date: 'MMM dd, HH:mm' }}</div>
+                  <div style="float:right">                      
+                  {{ note.recorded_name }} </div>
+                  <br clear="both" />
+              </div>
+              <pre class="note-data">{{note.note}}</pre>
+          </div>
+  </ion-item>
+</ion-list>
+      
+  </ion-content>
+</ion-view>

@@ -49,3 +49,4 @@ It requires the following APIs:
         }
     ]
     
+TODO - Simple local server - via ngrok

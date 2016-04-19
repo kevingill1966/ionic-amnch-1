@@ -34,17 +34,25 @@
                 templateUrl: 'templates/tabs.html'
               })
 
-              .state('tab.dash', {
-                url: '/dash',
+              .state('tab.consultants', {
+                url: '/consultants',
                 views: {
-                  'tab-dash': {
-                    templateUrl: 'templates/tab-dash.html',
-                    controller: 'DashCtrl'
+                  'tab-consultants': {
+                    templateUrl: 'templates/tab-consultants.html',
+                    controller: 'ConsultantsCtrl'
                   }
                 }
               })
 
-            
+              .state('tab.notes', {
+                url: '/notes',
+                views: {
+                  'tab-notes': {
+                    templateUrl: 'templates/tab-notes.html',
+                    controller: 'NotesCtrl'
+                  }
+                }
+              })            
   			;
         	$urlRouterProvider.otherwise('/login');
     	})
